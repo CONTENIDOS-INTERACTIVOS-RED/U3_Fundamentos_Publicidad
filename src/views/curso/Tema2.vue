@@ -72,7 +72,7 @@
             .row.align-items-center.p-4.p-md-5
               .col-lg-5
                 figure
-                  img(src="@/assets/curso/tema1/slider-1.png")
+                  img(src="@/assets/curso/tema1/1.png")
               .col-lg-7
                 h5 Brief de primer contacto
 
@@ -81,7 +81,7 @@
             .row.align-items-center.p-4.p-md-5
               .col-lg-5
                 figure
-                  img(src="@/assets/curso/tema1/slider-1.png")
+                  img(src="@/assets/curso/tema1/1.png")
               .col-lg-7
                 h5 Brief táctico
                 p Este tipo de brief tiene como objetivo principal establecer claramente los resultados esperados y establecer un plan estratégico de comunicación, al indicar que es una táctica, es solo una parte de un todo, es decir que para implementar un plan muchas veces, se requiere más de un brief; a diferencia del brief de primer contacto, su enfoque es específico en un producto o servicio.

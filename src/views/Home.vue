@@ -22,10 +22,10 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 La publicidad, como herramienta esencial de comunicación comercial, ha evolucionado para satisfacer las demandas del mercado global, integrando procesos organizativos y creativos en las agencias. En esta unidad, se explorarán los roles, estrategias y planificación necesarios para diseñar campañas efectivas, desde la generación de ideas innovadoras hasta su ejecución en medios tradicionales y digitales, destacando su impacto en el fortalecimiento de marcas y el éxito comercial.
+              p.descripcion.mb-4 En un mundo cada vez más conectado, la publicidad digital se ha convertido en una herramienta esencial para captar la atención de los usuarios en plataformas en línea. En esta unidad, exploraremos los fundamentos de la publicidad en redes sociales, motores de búsqueda y otros formatos digitales. Profundizaremos en temas como banners, videos publicitarios y anuncios nativos, destacando las ventajas y retos de cada estrategia en un entorno en constante cambio.
 
 
-              p #[b ¡Prepárese para dominar las estrategias publicitarias que transforman ideas en resultados!]
+              p #[b ¡Prepárese para descubrir las claves de la publicidad en el entorno digital y potenciar sus estrategias con confianza y creatividad!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

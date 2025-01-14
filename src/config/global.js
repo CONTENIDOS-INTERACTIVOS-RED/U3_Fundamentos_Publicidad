@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '2',
-    tituloUnidad: 'Estructura y procesos de la publicidad',
+    numeroUnidad: '3',
+    tituloUnidad: 'Publicidad en el entorno digital',
   },
   menuPrincipal: {
     menu: [
