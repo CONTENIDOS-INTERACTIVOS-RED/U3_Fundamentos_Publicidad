@@ -63,26 +63,20 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Planificación estratégica y medios en publicidad',
+        titulo: 'Tendencias y desafíos en la publicidad digital',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Definición de objetivos y segmentación',
+            titulo: 'Tendencias emergentes',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Selección de medios y canales',
+            titulo: 'Desafíos en la publicidad digital ',
             hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Medición y evaluación',
-            hash: 't_3_3',
           },
         ],
       },
@@ -123,105 +117,119 @@ export default {
   },
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Medina, A. (2016). El futuro de la comunicación: píldoras de publicidad, marketing y medios digitales. Difusora Larousse - Ediciones Pirámide. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/115583',
+    },
+    {
+      referencia:
+        'Roig, F. A. (2022). La publicidad moderna: De Bretton Woods a la era digital, 1945-1995. Ediciones Infinito. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/218583?',
+    },
+    {
+      referencia:
+        'Giráldez, G. (2020). Marketing digital para los que no saben de marketing digital: descubre cómo el marketing y la comunicación digital ayudan a las marcas a diferenciarse. Madrid, LID Editorial España.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/269741? ',
+    },
+    {
+      referencia:
+        'Estrade Nieto, J. M., Jordán Soro, D. & Hernández Dauder, M. Á. (2015). Marketing digital: marketing móvil, SEO y analítica web. Difusora Larousse - Ediciones Pirámide.',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/49491?page=307',
+    },
+    {
+      referencia:
+        'Navarro-Güere, H., (2024). El video de formato vertical en dispositivos móviles. Estudio de caso en TikTok, Instagram Reels y YouTube Shorts. Revista de Comunicación, 23(1), pp. 377-393.',
+      link: 'https://doi.org/10.26441/RC23.1-2024-3316',
+    },
+    {
+      referencia:
+        'Martínez Polo, J., Martínez Sánchez, J. & Parra Meroño, M. C. (2015). Marketing digital: guía básica para digitalizar tu empresa. Barcelona, Spain: Editorial UOC. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/57864?page=164',
+    },
+    {
+      referencia:
+        'Ábrego Rodríguez, A., Castillo C. F. & Mujica Chirinos, N. (2022). Estrategias de marketing digital y de e-commerce en tiempos de Covid-19. A - Editorial Universitaria Carlos Manuel Gasteazoro. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/23032',
+    },
+    {
+      referencia:
+        'Meseguer González, P. & López de Mántaras Badia, R. (2017). Inteligencia artificial. Editorial CSIC Consejo Superior de Investigaciones Científicas.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/42319 ',
+    },
+    {
+      referencia:
+        'Ábrego Rodríguez, A. & Castillo C. F. (2022). Marketing digital e-commerce y las ventajas competitivas. A - Editorial Universitaria Carlos Manuel Gasteazoro. ',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/230320?page=1',
+    },
+    {
+      referencia:
+        'Coll Rubio, P. & Micó Sanz, J. L. (2018). Estrategias de publicidad y relaciones públicas en la era digital: los casos de estudio de Wallapop, Westwing y Fotocasa. Editorial UOC. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/105395?page=1 ',
     },
   ],
   glosario: [
     {
-      termino: 'Agencia',
+      termino: 'Anuncios <em>Ads</em>',
       significado:
-        'Organización que planifica, crea y ejecuta campañas publicitarias, para marcas y clientes.',
+        'Formato publicitario pagado, como anuncios en Google <em>Ads</em> o Facebook <em>Ads</em>, cuyo objetivo es generar clics o impresiones en una página web, o aplicación.',
     },
     {
-      termino: 'Brief',
+      termino: '<em>Engagement</em>',
       significado:
-        'Documento guía que contiene información clave sobre los objetivos, el público y los mensajes de una campaña publicitaria.',
+        'Medida de la interacción que un usuario tiene con una marca o contenido, incluyendo <em>likes</em>, comentarios, compartidos y tiempo de visualización.',
     },
     {
-      termino: 'Creatividad',
+      termino: 'Ética digital',
       significado:
-        'Capacidad para generar ideas originales y efectivas en la resolución de problemas o en la creación de mensajes publicitarios.',
+        'Conjunto de principios y normas que guían el desarrollo y uso responsable de la tecnología, incluida la publicidad digital y la inteligencia artificial.',
     },
     {
-      termino: 'Estrategia',
+      termino: '<em>Influencer</em>',
       significado:
-        'Plan de acción diseñado para alcanzar objetivos específicos de manera efectiva.',
+        'Persona con una audiencia significativa en redes sociales que tiene la capacidad de influir en las decisiones de compra de sus seguidores.',
     },
     {
-      termino: 'Investigación de mercados',
+      termino: '<em>Mobile Marketing</em>',
       significado:
-        'Proceso de recopilar y analizar datos para entender el comportamiento, necesidades y preferencias del público objetivo.',
+        'Estrategias de <em>marketing</em> diseñadas para dispositivos móviles, incluyendo anuncios en aplicaciones, notificaciones <em>push</em> y SMS.',
     },
     {
-      termino: 'KPIs (Indicadores Claves de Desempeño)',
+      termino: 'Notificaciones <em>Push</em>',
       significado:
-        'Métricas utilizadas para medir el éxito de una campaña publicitaria.',
+        'Mensajes enviados a la pantalla del dispositivo móvil para notificar al usuario sobre una oferta, actualización o recordatorio.',
     },
     {
-      termino: 'Marca',
+      termino: 'Plataformas programáticas',
       significado:
-        'Identidad única de un producto, servicio o empresa que lo diferencia en el mercado.',
+        'Herramientas tecnológicas que permiten la compra automatizada de espacios publicitarios en tiempo real, a través de plataformas como Google <em>Ads</em> y Facebook <em>Ads</em>.',
     },
     {
-      termino: 'Medios digitales',
+      termino: 'Publicidad digital',
       significado:
-        'Plataformas en línea, como redes sociales, buscadores y sitios web, utilizadas para difundir mensajes publicitarios.',
+        'Estrategia de promoción de productos o servicios utilizando plataformas en línea, como motores de búsqueda, redes sociales y sitios web.',
     },
     {
-      termino: 'Medios tradicionales',
+      termino: 'Publicidad interactiva',
       significado:
-        'Canales publicitarios como televisión, radio y prensa, usados para llegar a grandes audiencias.',
+        'Anuncios que permiten al usuario participar activamente, como juegos o encuestas, mejorando el engagement y la retención.',
     },
     {
-      termino: 'Mercado objetivo',
+      termino: 'Publicidad nativa',
       significado:
-        'Segmento de consumidores con características comunes, que una marca busca alcanzar.',
+        'Anuncios que se integran de manera orgánica en el contenido editorial de una página web o red social, pareciendo contenido regular.',
     },
     {
-      termino: 'Pieza creativa',
+      termino: 'Publicidad programática',
       significado:
-        'Elemento visual, escrito o audiovisual diseñado para transmitir un mensaje publicitario.',
+        'Uso de algoritmos y tecnología para comprar y colocar anuncios de manera automatizada, optimizando el proceso de compra en tiempo real.',
     },
     {
-      termino: 'Posicionamiento',
+      termino: 'Segmentación',
       significado:
-        'Percepción que los consumidores tienen de una marca en relación con sus competidores.',
-    },
-    {
-      termino: 'Publicidad',
-      significado:
-        'Actividad de comunicación que busca promover un producto, servicio o idea a través de diversos medios para influir en el comportamiento del público.',
-    },
-    {
-      termino: 'Redactor',
-      significado:
-        'Profesional que crea textos persuasivos y creativos para anuncios, campañas y contenido publicitario.',
-    },
-    {
-      termino: 'ROI (Return on Investment)',
-      significado:
-        'Métrica que mide el beneficio obtenido en relación con la inversión realizada en una campaña.',
-    },
-    {
-      termino: 'Startups',
-      significado:
-        'Empresas emergentes con modelos de negocio innovadores, generalmente enfocadas en el crecimiento rápido.',
-    },
-    {
-      termino: 'Target',
-      significado:
-        'Grupo específico de personas a quienes se dirige una campaña publicitaria.',
-    },
-    {
-      termino: 'Tasa de conversión',
-      significado:
-        'Porcentaje de usuarios que realizan una acción deseada, como una compra o un registro.',
-    },
-    {
-      termino: 'Versatilidad',
-      significado:
-        'Capacidad de adaptarse a diferentes contextos y desafíos con facilidad.',
+        'Proceso de dividir un público amplio en segmentos más específicos para personalizar los mensajes publicitarios según sus características.',
     },
   ],
 }

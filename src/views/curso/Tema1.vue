@@ -4,8 +4,8 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     
-    .row.mb-5
-      .col-lg-4.order-2
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.order-2
         figure
           img(src="@/assets/curso/tema1/1.png", data-aos="zoom-in")
       .col-lg-8.order-1
@@ -76,18 +76,18 @@
 
     h2.mb-5(data-aos="flip-up") a. Plataformas populares
 
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-lg-8
         p Son aquellas plataformas en línea, ampliamente utilizadas por los usuarios, donde los anunciantes pueden crear y distribuir campañas. Estas plataformas proporcionan herramientas para segmentar audiencias, gestionar presupuestos y medir resultados. Algunas de las plataformas más populares incluyen: Facebook Ads, Instagram Ads, Twitter Ads, LinkedIn Ads.
-      .col-lg-4 
+      .col-md-8.col-lg-4 
         figure
           img(src="@/assets/curso/tema1/8.png", data-aos="zoom-in")
     
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white(data-aos="zoom-in")
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+          .row.align-items-center.p-4.p-md-5.justify-content-center
+            .col-md-8.col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/9.png")
             .col-lg-7
@@ -95,8 +95,8 @@
 
               p Con más de 2.8 mil millones de usuarios activos, tiene herramientas avanzadas de segmentación por edad, ubicación, intereses y comportamiento. Los anuncios pueden ser imágenes, videos, carruseles, entre otros.
 
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+          .row.align-items-center.p-4.p-md-5.justify-content-center
+            .col-md-8.col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/10.png")
             .col-lg-7
@@ -104,16 +104,16 @@
 
               p Promociona productos de manera creativa, mediante imágenes y videos. Incluye anuncios en el <em>feed</em>, en las historias y en la sección de explorar.
 
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+          .row.align-items-center.p-4.p-md-5.justify-content-center
+            .col-md-8.col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/11.png")
             .col-lg-7
               h5.mb-4 Twitter ahora X
 
               p Comparte contenido en tiempo real, son publicaciones breves para campañas de concientización o promociones rápidas. Incluye anuncios de <em>tweets</em> promocionados, tendencias patrocinadas, y cuentas promovidas.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5
+          .row.align-items-center.p-4.p-md-5.justify-content-center
+            .col-md-8.col-lg-5.mb-3.mb-lg-0
               figure
                 img(src="@/assets/curso/tema1/12.png")
             .col-lg-7
@@ -123,8 +123,8 @@
 
     
 
-    .row.mb-5
-      .col-lg-4.order-2
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-4.order-2
         figure
           img(src="@/assets/curso/tema1/14.png", data-aos="zoom-in")
       .col-lg-8.order-1
@@ -142,7 +142,7 @@
     #t_1_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 1.2] Publicidad en motores de búsqueda
     
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-lg-8.order-2
         p Estudiemos la diferencia entre optimización de motores de búsqueda (SEO) y marketing en motores de búsqueda (SEM). 
         .bg-color-1.p-4(data-aos="fade-left").mb-4
@@ -150,11 +150,11 @@
 
         p(data-aos="fade-left").mb-4  Solis detalla cómo el SEO abarca varios aspectos claves:
 
-      .col-lg-4.order-1
+      .col-md-8.mb-3.mb-lg-o.col-lg-4.order-1
           figure
             img(src="@/assets/curso/tema1/15.png", data-aos="zoom-in").mt-4.mt-lg-0
     
-    .bg-full-width.bg-color-info
+    .bg-full-width.bg-color-info.mb-5
       .p-4.p-md-5
         .row.justify-content-center.align-items-center.mb-5
           .col-lg-auto
@@ -188,9 +188,9 @@
     .bg-full-width.bg-fondo-7.mb-5
 
       .row.justify-content-center.align-items-center
-        .col-lg-5
+        .col-11.col-md-8.col-lg-4
           img.img-fluid(src='@/assets/curso/tema1/17.svg', style="max-width:610px", alt="", data-aos="zoom-in").mx-auto
-        .col-lg-6(data-aos="fade-left")
+        .col-lg-8(data-aos="fade-left")
           .pt-lg-5.pe-lg-5.p-4.ps-lg-0
             ul.lista-ul
               li.mb-2.d-flex
@@ -213,29 +213,61 @@
         LineaTiempoD.color-primario.large(data-aos="fade-left")
           div(numero="1" titulo="Ventajas") 
             ul.lista-ul
-              li.mb-2
+              li.mb-2.d-flex
                 i.fas.fa-check-circle
-                | Permite que un producto o servicio sea reconocido rápidamente.
-              li.mb-2
+                p Permite que un producto o servicio sea reconocido rápidamente.
+              li.mb-2.d-flex
                 i.fas.fa-check-circle
-                | Permite competir con empresas grandes y con alto posicionamiento en el mercado.
-              li.mb-2
+                p Permite competir con empresas grandes y con alto posicionamiento en el mercado.
+              li.mb-2.d-flex
                 i.fas.fa-check-circle
-                | El ROI es más rápido.
-              li.mb-2
+                p El ROI es más rápido.
+              li.mb-2.d-flex
                 i.fas.fa-check-circle
-                | Permite llegar a mercados muy específicos, porque permite un alto nivel de segmentación.
+                p Permite llegar a mercados muy específicos, porque permite un alto nivel de segmentación.
           div(numero="2" titulo="Desventajas") 
             ul.lista-ul
-              li.mb-2
+              li.mb-2.d-flex
                 i.fas.fa-check-circle
-                | La compra de palabras claves para el desarrollo de la publicidad suele ser costosa.
-              li.mb-2
+                p La compra de palabras claves para el desarrollo de la publicidad suele ser costosa.
+              li.mb-2.d-flex
                 i.fas.fa-check-circle
-                | Es un tipo de comunicación invasiva que el mercado no ha buscado y, por lo tanto, puede generar rechazo.
-              li.mb-2
+                p Es un tipo de comunicación invasiva que el mercado no ha buscado y, por lo tanto, puede generar rechazo.
+              li.mb-2.d-flex
                 i.fas.fa-check-circle
-                | Requiere compromiso en el desarrollo de la gestión y optimización.
+                p Requiere compromiso en el desarrollo de la gestión y optimización.
+    
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/167260" target="_blank" rel="noopener noreferrer") Martin-Guart, R. & Botey López, J. (2020). Glosario de marketing digital. Editorial UOC.   
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/ereader/tecnologicadeloriente/57768?" target="_blank" rel="noopener noreferrer") Marqués, P. y Fresno, M. D. (2015). Conectados por redes sociales: introducción al análisis de redes sociales y casos prácticos. Editorial UOC.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="http://estrategias-negocio.blogspot.com/2009/04/estrategia-marketing-distribucion.html " target="_blank" rel="noopener noreferrer") Cómo aplicar el Marketing. Estrategia de Marketing para Distribución.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elpais.com/smoda/2024-10-27/de-portador-de-historias-a-simbolo-de-estilo-asi-se-ha-convertido-el-libro-en-el-nuevo-objeto-de-culto.html" target="_blank" rel="noopener noreferrer") Otero, B. (2024). El libro como nuevo símbolo de estatus: el triunfo del papel gracias a las redes. El País
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.google.com/" target="_blank" rel="noopener noreferrer") El motor de búsqueda más reconocido y utilizado.
+            
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=7oRGg7PLKcQ" target="_blank" rel="noopener noreferrer") BYTEC WEB & MKT AGENCY. (2020). ¿Es más efectivo el EmailMarketing o los anuncios en Redes Sociales?.  
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
               
 
 </template>
