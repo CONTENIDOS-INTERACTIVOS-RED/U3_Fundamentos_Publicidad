@@ -15,19 +15,19 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Agencias de publicidad: roles y funciones',
+        titulo: 'Publicidad en redes sociales y motores de búsqueda',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Estructura organizativa',
+            titulo: 'Publicidad en redes sociales',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Agencias y marcas',
+            titulo: 'Publicidad en motores de búsqueda',
             hash: 't_1_2',
           },
         ],
@@ -36,26 +36,25 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo:
-          'El proceso creativo publicitario: desde el briefing hasta la ejecución',
+        titulo: 'Formatos publicitarios digitales',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'El briefing publicitario',
+            titulo: '<em>Banners</em>',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Desarrollo del concepto creativo',
+            titulo: 'Videos publicitarios ',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Producción y ejecución',
+            titulo: 'Anuncios nativos ',
             hash: 't_2_3',
           },
         ],
