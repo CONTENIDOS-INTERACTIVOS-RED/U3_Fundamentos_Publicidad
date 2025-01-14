@@ -17,14 +17,14 @@
 
   
 
-    .bg-full-width.bg-fondo-2.mb-4
+    .bg-full-width.bg-fondo-2
 
       .row.justify-content-center.align-items-center
         .col-lg-6(data-aos="zoom-in")
-          img.img-fluid(src='@/assets/curso/intro/2.svg', style="max-width:610px", alt="").mx-auto.mx-lg-0.me-lg-auto.mb-4.mb-lg-0
+          img.img-fluid(src='@/assets/curso/intro/2.svg', style="max-width:610px", alt="").mx-auto
 
         .col-lg-5(data-aos="fade-left")
-          .pt-5.pe-5
+          .pt-lg-5.pe-lg-5.px-4
             p.text-bold(data-aos="fade-left").my-4 El conocimiento y comprensión de estos aspectos, permite diseñar estrategias más efectivas, éticas y orientadas a resultados. Este enfoque integrado no solo mejora la visibilidad de las marcas, sino que también optimiza la relación con el consumidor en el dinámico mundo digital.
 
 
