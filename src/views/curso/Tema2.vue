@@ -159,7 +159,7 @@
       .col-lg-6.order-1
         
         TarjetaAudio.color-acento-botones.bg-color-white.mb-3(
-          texto="Fundamentos de la innovación estratégica"
+          texto="Videos publicitarios"
           tiempo
           :audio="require('../../assets/curso/podcast/podcast1.mp3')"
         )
